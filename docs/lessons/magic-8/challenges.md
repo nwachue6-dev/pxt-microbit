@@ -36,7 +36,7 @@ basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
     let randomNumber = randint(0, 4)
-    if (randomNumber == 2) {
+    if (randomNumber == 2) {then
         basic.showString("YES")
     } else if (randomNumber == 1) {
         basic.showString("NO")
